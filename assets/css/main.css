@@ -80,7 +80,7 @@ button:focus,
 select {
   -webkit-writing-mode: horizontal-tb !important;
   text-rendering: auto;
-  color: #081828;
+  color: #3b3b3b;
   letter-spacing: normal;
   word-spacing: normal;
   text-transform: none;
@@ -100,7 +100,7 @@ select {
   -webkit-rtl-ordering: logical;
   background-color: -internal-light-dark(white, #3b3b3b);
   cursor: default;
-  margin: 0em;
+  margin: 0;
   font: 400 14px;
   border-radius: 0px;
   border-width: 1px;
@@ -2623,6 +2623,10 @@ ol {
   line-height: 48px;
 }
 
+.about .content a {
+  color: #7E57FF;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .about .content h2 {
     font-size: 30px;
@@ -3699,6 +3703,12 @@ blockquote span {
   padding-top: 80px;
 }
 
+.blog-grid-page h2{
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 48px;
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .blog-grid-page {
     padding-top: 40px;
@@ -3709,11 +3719,22 @@ blockquote span {
   .blog-grid-page {
     padding-top: 30px;
   }
+  .blog-grid-page h2 {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 34px;
+  }
 }
 
 .blog-grid-page .sidebar {
   margin-top: 30px;
 }
+
+.blog-grid-page .sidebar#mods {
+  position: sticky;
+}
+
+
 
 /*======================================
    Clients Logo CSS
@@ -4133,6 +4154,23 @@ blockquote span {
 }
 
 .contact-us .contact-form .form-group input:focus {
+  border-color: #7E57FF;
+}
+
+.contact-us .contact-form .form-group select {
+  height: 52px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-right: 10px;
+  padding: 0px 20px;
+  width: 100%;
+  color: inherit;
+  -webkit-transition: all 0.4s ease;
+  transition: all 0.4s ease;
+  background-color: #fff;
+}
+
+.contact-us .contact-form .form-groups select:focus {
   border-color: #7E57FF;
 }
 
