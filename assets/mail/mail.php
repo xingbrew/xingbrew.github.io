@@ -15,6 +15,6 @@ Message: ".$message."
 
 ";
 
-mail ("xing@databrew.cc" , "New Message from Uphando", $email_message);
+mail ("xing@datatrain.cc" , "New Message from Datatrain", $email_message);
 header("location: ../../mail-success.html");
 ?>
