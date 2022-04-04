@@ -4564,6 +4564,10 @@ blockquote span {
   display: inline-block;
 }
 
+.portfolio-item-wrapper .portfolio-overlay a {
+  color: inherit;
+}
+
 .portfolio-item-wrapper .portfolio-overlay .overlay-content h4 {
   margin-top: 5px;
   font-size: 16px;
