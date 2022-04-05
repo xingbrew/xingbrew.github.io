@@ -921,8 +921,8 @@ ol {
 /* Bread Crumbs */
 .breadcrumbs {
   position: relative;
-  padding-top: 160px;
-  padding-bottom: 120px;
+  padding-top: 80px;
+  padding-bottom: 20px;
   z-index: 2;
   text-align: left;
   background-color: #081828;
@@ -2649,10 +2649,6 @@ ol {
 }
 
 .about .content .list .single-list {
-  position: relative;
-  padding-left: 42px;
-  margin-top: 40px;
-  display: inline-block;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -3076,6 +3072,19 @@ ol {
   overflow: hidden;
   border-radius: 8px;
   margin-bottom: 40px;
+}
+
+.blog-single .list h4 {
+  font-size: inherit;
+  line-height: 28px;
+}
+
+.blog-single .list li {
+  line-height: 28px;
+}
+
+.blog-single .list li:last-child {
+  margin-bottom: 60px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
@@ -4554,8 +4563,8 @@ blockquote span {
 
 .portfolio-item-wrapper .portfolio-overlay {
   position: absolute;
-  left: 15px;
-  bottom: 15px;
+  right: 15px;
+  top: 15px;
   background-color: #fff;
   padding: 20px 35px 20px 20px;
   border-radius: 5px;
@@ -4570,7 +4579,7 @@ blockquote span {
 
 .portfolio-item-wrapper .portfolio-overlay .overlay-content h4 {
   margin-top: 5px;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 700;
   line-height: 28px;
 }
@@ -5312,4 +5321,15 @@ blockquote span {
 
 .footer .copyright-area p a:hover {
   color: #7E57FF;
+}
+
+
+
+.about .content .list .single-list {
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .about .content .list .single-list {
+    width: 49%;
+  }
 }
