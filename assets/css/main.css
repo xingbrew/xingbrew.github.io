@@ -3120,6 +3120,10 @@ ol {
   margin-right: 12px;
 }
 
+.blog-single .detail-inner a {
+  color: #7E57FF;
+}
+
 .blog-single .post-thumbnils {
   position: relative;
   overflow: hidden;
@@ -3159,6 +3163,7 @@ ol {
 
 .blog-single .post-thumbnils img {
   width: 100%;
+  max-height: 250px;
 }
 
 .blog-single .post-title {
@@ -4623,7 +4628,7 @@ blockquote span {
   position: absolute;
   right: 15px;
   top: 15px;
-  background:rgba(255,255,255, 0.8);
+  background:rgba(255,255,255, 0.9);
   padding: 20px 35px 20px 20px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.096);
