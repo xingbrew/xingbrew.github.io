@@ -4520,7 +4520,7 @@ blockquote span {
 }
 
 /*======================================
-   Portfolio CSS
+   Portfolio CSS / Modules
 ========================================*/
 .portfolio-section .portfolio-btn-wrapper {
   margin-bottom: 0;
@@ -4623,7 +4623,7 @@ blockquote span {
   position: absolute;
   right: 15px;
   top: 15px;
-  background-color: #fff;
+  background:rgba(255,255,255, 0.8);
   padding: 20px 35px 20px 20px;
   border-radius: 5px;
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.096);
