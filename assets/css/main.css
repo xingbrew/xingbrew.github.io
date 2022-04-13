@@ -5391,7 +5391,22 @@ blockquote span {
   font-family: 'DM sans' !important;
 }
 
+.cog-cognito button:hover {
+ background-color: #7E57FF !important;
+ border-color: #7E57FF !important;
+}
+
+
 .cog-label {
  font-family: 'DM sans' !important;
- font-weight: 300 !important!
+ font-weight: 300 !important
+}
+
+.cog-button {
+ font-family: 'DM sans' !important;
+ font-weight: 300 !important
+}
+
+#sub .cog-button  {
+ margin-top: -20px !important
 }
