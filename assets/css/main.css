@@ -2580,7 +2580,7 @@ ol {
 }
 
 /*======================================
-    Process Area CSS
+    About CSS
 ========================================*/
 .about img {
   width: 100%;
@@ -2692,6 +2692,12 @@ ol {
 .about .content .list .single-list h4 {
   color: #081828;
   font-size: 15px;
+  margin-bottom: 10px;
+}
+
+.about .content .list .single-list h5 {
+  color: #727272;
+  font-size: 12px;
   margin-bottom: 10px;
 }
 
@@ -4833,6 +4839,10 @@ blockquote span {
   .accordion-body {
     padding: 20px;
   }
+}
+
+.accordion-body a {
+  color: #7E57FF;
 }
 
 .accordion-body p {
