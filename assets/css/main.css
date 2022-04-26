@@ -1676,12 +1676,13 @@ ol {
 }
 
 .header .navbar-brand img {
-  width: 130px;
+  height: 40px;
+  width: auto;
 }
 
 @-moz-document url-prefix() {
     .header .navbar-brand img {
-       height: 50px;
+       height: 40px;
        width: auto;
     }
 }
@@ -5200,7 +5201,7 @@ blockquote span {
 
 @-moz-document url-prefix() {
     .footer .single-footer.f-about .logo img{
-       height: 50px;
+       height: 40px;
        width: auto;
     }
 }
