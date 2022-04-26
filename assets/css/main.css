@@ -1679,6 +1679,13 @@ ol {
   width: 130px;
 }
 
+@-moz-document url-prefix() {
+    .header .navbar-brand img {
+       width: 200px;
+       display: grid;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header .navbar-brand img {
     width: 125px;
