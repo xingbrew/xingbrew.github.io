@@ -1675,19 +1675,14 @@ ol {
   }
 }
 
-@-moz-document url-prefix() {
-    .header .navbar-brand {
-       width: 150px;
-    }
-
 .header .navbar-brand img {
   width: 130px;
 }
 
 @-moz-document url-prefix() {
     .header .navbar-brand img {
-       width: 130px;
-       display: block;
+       height: 50px;
+       width: auto;
     }
 }
 
@@ -5205,7 +5200,8 @@ blockquote span {
 
 @-moz-document url-prefix() {
     .footer .single-footer.f-about .logo img{
-       height: 60px;
+       height: 50px;
+       width: auto;
     }
 }
 
