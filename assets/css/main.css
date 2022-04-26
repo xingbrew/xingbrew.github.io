@@ -1675,13 +1675,19 @@ ol {
   }
 }
 
+@-moz-document url-prefix() {
+    .header .navbar-brand {
+       width: 150px;
+    }
+
 .header .navbar-brand img {
   width: 130px;
 }
 
 @-moz-document url-prefix() {
     .header .navbar-brand img {
-       height: 60px;
+       width: 130px;
+       display: block;
     }
 }
 
