@@ -1681,8 +1681,7 @@ ol {
 
 @-moz-document url-prefix() {
     .header .navbar-brand img {
-       width: 130px;
-       height: 80px;
+       height: 60px;
     }
 }
 
@@ -5200,8 +5199,7 @@ blockquote span {
 
 @-moz-document url-prefix() {
     .footer .single-footer.f-about .logo img{
-       width: 130px;
-       height: 80px;
+       height: 60px;
     }
 }
 
