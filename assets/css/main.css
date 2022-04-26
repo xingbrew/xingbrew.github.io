@@ -5198,6 +5198,13 @@ blockquote span {
   width: 130px;
 }
 
+@-moz-document url-prefix() {
+    .footer .single-footer.f-about .logo img{
+       width: 130px;
+       height: 80px;
+    }
+}
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer .single-footer.f-about .logo img {
     width: 125px;
