@@ -1676,17 +1676,14 @@ ol {
 }
 
 .header .navbar-brand img {
-  height: 40px;
-  width: auto;
+  width: 130px;
 }
 
 @-moz-document url-prefix() {
     .header .navbar-brand img {
-       height: 40px;
-       width: auto;
+       display: none;
     }
 }
-
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .header .navbar-brand img {
     width: 125px;
@@ -3181,8 +3178,7 @@ ol {
 }
 
 .blog-single .post-thumbnils img {
-  width: 100%;
-  max-height: 250px;
+  max-height: 300px;
 }
 
 .blog-single .post-title {
@@ -5417,6 +5413,10 @@ blockquote span {
 }
 
 /* Cognito Forms */
+
+.row#space {
+  margin-top: 100px;
+}
  .cog-cognito {
   font-family: 'DM sans' !important;
 }
