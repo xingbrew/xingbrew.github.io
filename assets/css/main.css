@@ -3179,6 +3179,7 @@ ol {
 
 .blog-single .post-thumbnils img {
   max-height: 300px;
+  border-radius: 10px;
 }
 
 .blog-single .post-title {
