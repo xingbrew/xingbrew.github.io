@@ -3881,6 +3881,10 @@ blockquote span {
   text-align: center;
 }
 
+.team .single-team .content a {
+  margin-top: -20px;
+}
+
 .team .single-team img {
   height: 200px;
   width: 200px;
