@@ -2125,7 +2125,7 @@ ol {
   font-size: 52px;
   line-height: 62px;
   color: #fff;
-  text-transform: capitalize;
+  text-transform: uppercase;
 }
 
 .hero-area .hero-content p {
